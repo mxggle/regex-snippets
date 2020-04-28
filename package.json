@@ -1,0 +1,35 @@
+{
+    "name": "regexsnippets",
+    "displayName": "JavaScript regex snippets",
+    "description": "Commonly used JavaScript regex snippets",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+            "language": "javascript",
+            "path": "./snippets/snippets.json"
+            }, {
+            "language": "typescript",
+            "path": "./snippets/snippets.json"
+            }, {
+            "language": "javascriptreact",
+            "path": "./snippets/snippets.json"
+            }, {
+            "language": "typescriptreact",
+            "path": "./snippets/snippets.json"
+            }, {
+            "language": "html",
+            "path": "./snippets/snippets.json"
+            }, {
+            "language": "vue",
+            "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

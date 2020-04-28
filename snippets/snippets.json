@@ -1,0 +1,42 @@
+{
+  "phoneNumberRegex": {
+    "prefix": "!regPhone",
+    "body": "/^1[3|5|8|7]\\d{9}$/",
+    "description": "phone number regex"
+  },
+  "emailRegex": {
+    "prefix": "!regemail",
+    "body": "/^\\w+@([0-9a-zA-Z]+[.])+[a-z]{2,4}$/",
+    "description": "email regex"
+  },
+  "domainRegex": {
+    "prefix": "!regdomain",
+    "body": "[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(/.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+/.?",
+    "description": "domain regex"
+  },
+  "urlRegexIncludeProtocol": {
+    "prefix": "!regurl",
+    "body": "/https?:\/\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\\+.~#()?&//=]*)/",
+    "description": "url regex(Include http(s) Protocol)"
+  },
+  "urlRegexProtocolOptional": {
+    "prefix": "!regurl?",
+    "body": "/(https?:\/\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)/",
+    "description": "url regex(Protocol Optional)"
+  },
+  "hanziRegex": {
+    "prefix": "!regcnc",
+    "body": "^[\u4e00-\u9fa5]{0,}$",
+    "description": "chinese characters regex"
+  },
+  "complexPasswordRegex": {
+    "prefix": "!regpwluns",
+    "body": "/(?=(.*[0-9]))(?=.*[\\!@#$%^&*()\\[\\]{}\\-_+=~`|:;\"'<>,./?])(?=.*[a-z])(?=(.*[A-Z]))(?=(.*)).{8,}/",
+    "description": "Should have 1 lowercase letter, 1 uppercase letter, 1 number, 1 special character and be at least 8 characters long"
+  },
+  "moderatePasswordRegex": {
+    "prefix": "!regpwlun",
+    "body": "/(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$/",
+    "description": "Should have 1 lowercase letter, 1 uppercase letter, 1 number, and be at least 8 characters long"
+  }
+}
