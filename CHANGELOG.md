@@ -1,9 +1,4 @@
-# Change Log
 
-All notable changes to the "regexsnippets" extension will be documented in this file.
+## [1.0.0] - 2020-04-29
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- 增加几个常用的正则表达式

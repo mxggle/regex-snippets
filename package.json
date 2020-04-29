@@ -3,6 +3,12 @@
     "displayName": "JavaScript regex snippets",
     "description": "Commonly used JavaScript regex snippets",
     "version": "1.0.0",
+    "publisher": "muggle",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mxggle/regex-snippets"
+    },
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.44.0"
     },
